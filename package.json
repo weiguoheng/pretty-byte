@@ -1,7 +1,7 @@
 {
-  "name": "pretty-file-byte",
+  "name": "pretty-file-bytes",
   "version": "0.0.1",
-  "repository": "weiguoheng/pretty-file-byte",
+  "repository": "weiguoheng/pretty-file-bytes",
   "author": {
     "name": "Guoheng Wei",
     "email": "weiguohenggg@gmail.com"
