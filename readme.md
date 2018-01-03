@@ -1,23 +1,23 @@
 ## Install
 
 ```
-$ npm install --save pretty-file-byte
+$ npm install --save pretty-file-bytes
 ```
 
 ## Usage
 
 ```js
-const prettyByte = require('pretty-file-byte');
+const prettyBytes = require('pretty-file-bytes');
 
-prettyByte(1337);
+prettyBytes(1337);
 //=> '1.34 kB'
 
-prettyByte(100);
+prettyBytes(100);
 //=> '100 B'
 
-prettyByte(1020,'B');
+prettyBytes(1020,'B');
 //=> '1020 B'
 
-prettyByte(1020,'KB');
+prettyBytes(1020,'KB');
 //=> '1.02 KB'
 ```
