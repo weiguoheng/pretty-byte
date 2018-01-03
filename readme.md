@@ -1,13 +1,13 @@
 ## Install
 
 ```
-$ npm install
+$ npm install --save pretty-file-byte
 ```
 
 ## Usage
 
 ```js
-
+const prettyByte = require('pretty-file-byte');
 
 prettyByte(1337);
 //=> '1.34 kB'
