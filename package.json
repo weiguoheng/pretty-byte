@@ -1,0 +1,35 @@
+{
+  "name": "pretty-byte",
+  "version": "0.0.1",
+  "repository": "weiguoheng/pretty-byte",
+  "author": {
+    "name": "Guoheng Wei",
+    "email": "weiguohenggg@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "pretty",
+    "bytes",
+    "byte",
+    "filesize",
+    "size",
+    "file",
+    "human",
+    "humanized",
+    "readable",
+    "si",
+    "data"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
